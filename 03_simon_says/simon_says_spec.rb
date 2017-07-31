@@ -56,7 +56,7 @@ describe "Simon says" do
     it "returns the first two letters" do
       expect(start_of_word("Bob", 2)).to eq("Bo")
     end
-
+    
     it "returns the first several letters" do
       s = "abcdefg"
       expect(start_of_word(s, 1)).to eq("a")
